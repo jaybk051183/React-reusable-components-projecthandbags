@@ -34,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Persoonlijk heb je helemaal niets met tassen (je bent immers een nerdy developer) maar je hebt gezien dat de website van die peperdure tassenwinkel om de hoek wel wat beter gestructureerd kan worden.\r Je bent erachter gekomen dat de webshop gebouwd is in React, en wil daarom direct wat aanpassingen maken. Zo zijn er een aantal onderdelen op de webshop die omgevormd kunnen worden tot herbruikbare componenten,\r die je data kunt doorgeven via properties. Alle styling is toegepast met type selectors, dus zodra je de juiste semantische HTML elementen gebruikt, kun je de styling met rust laten.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
