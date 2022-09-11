@@ -11,77 +11,77 @@ import our_story from './assets/our_story.png';
 import './App.css';
 
 function App() {
-  return (
-      <>
-      <nav>
-        <Button
-            isDisabled={false}
-            clickHandler={()=>console.log("To the collection")}>
-            To the collection
-        </Button>
-        <Button
-            isDisabled={false}
-            clickHandler={()=>console.log("Shop all bags")}>
-            Shop all bags
-        </Button>
-        <Button
-            isDdisabled={true}
-            clickHandler={()=>console.log("Pre-orders")}>
-            Pre-orders
-        </Button>
-      </nav>
-      <main>
-          <Product
-              label="Best seller"
-              img={bag_one}
-              title="The handy bag"
-              price={400}
-          />
+    return (
+        <>
+            <nav>
+                <Button
+                    isDisabled={false}
+                    clickHandler={()=>console.log("To the collection")}>
+                    To the collection
+                </Button>
+                <Button
+                    isDisabled={false}
+                    clickHandler={()=>console.log("Shop all bags")}>
+                    Shop all bags
+                </Button>
+                <Button
+                    isDdisabled={true}
+                    clickHandler={()=>console.log("Pre-orders")}>
+                    Pre-orders
+                </Button>
+            </nav>
+            <main>
+                <Product
+                    label="Best seller"
+                    img={bag_one}
+                    title="The handy bag"
+                    price={400}
+                />
 
-          <Product
-              label="Best seller"
-              img={bag_two}
-              title="The stylish bag"
-              price={250}
-          />
+                <Product
+                    label="Best seller"
+                    img={bag_two}
+                    title="The stylish bag"
+                    price={250}
+                />
 
-          <Product
-              label="New collection"
-              img={bag_three}
-              title="The simple bag"
-              price={300}
-          />
+                <Product
+                    label="New collection"
+                    img={bag_three}
+                    title="The simple bag"
+                    price={300}
+                />
 
-          <Product
-              label="New collection"
-              img={bag_four}
-              title="The trendy bag"
-              price={150}
-          />
-      </main>
-          <footer>
-              <Tile title="The brand">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur ducimus exercitationem id minima mollitia nemo nobis, perferendis placeat totam unde voluptas. Dolores, modi quas. Accusamus architecto ea est nobis!</p>
-              </Tile>
+                <Product
+                    label="New collection"
+                    img={bag_four}
+                    title="The trendy bag"
+                    price={150}
+                />
+            </main>
+            <footer>
+                <Tile title="The brand">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur ducimus exercitationem id minima mollitia nemo nobis, perferendis placeat totam unde voluptas. Dolores, modi quas. Accusamus architecto ea est nobis!</p>
+                </Tile>
 
-              <Tile
-                  img={brand}
-                  imgTitle="Logo"
-                  >
-              </Tile>
+                <Tile
+                    img={brand}
+                    imgTitle="Logo"
+                >
+                </Tile>
 
-              <Tile
-                  img={our_story}
-                  imgTitle="story"
-                  >
-             </Tile>
+                <Tile
+                    img={our_story}
+                    imgTitle="story"
+                >
+                </Tile>
 
-              <Tile title="Our story">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur dignissimos itaque maiores placeat sunt, vero! A amet aspernatur dolore dolorem, molestiae nobis sit! Illum rem repellat sunt! Placeat, reprehenderit.</p>
-              </Tile>
-          </footer>
-          </>
-  );
+                <Tile title="Our story">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur dignissimos itaque maiores placeat sunt, vero! A amet aspernatur dolore dolorem, molestiae nobis sit! Illum rem repellat sunt! Placeat, reprehenderit.</p>
+                </Tile>
+            </footer>
+        </>
+    );
 }
 
 export default App;
